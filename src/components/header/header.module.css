@@ -1,0 +1,13 @@
+.logoBox{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.logoBox span{
+    color: #409a1a;
+}
+
+.logoBox img {
+    width: 233px;
+    height: 77px;
+}

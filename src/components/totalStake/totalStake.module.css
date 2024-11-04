@@ -1,0 +1,174 @@
+.totalStakeBox{
+    width: 60%;
+    min-height: 25vh;
+    background-color:#1a1a1a ;
+    border: 2px solid transparent; /* Set the border width */
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3) inset, 1px 1px 1px #000;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.box{
+    width: 100%;
+    display: flex;
+}
+
+.box span{
+    color: #cccccc;
+}
+.totalStakeHeader{
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    display: flex;
+    gap: 70px;
+}
+.middlebox{
+    width: 100%;
+   height: auto;
+    border-top: .5px  solid #ccc;
+    border-bottom: .5px  solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+
+.totalStakeHeader  input{
+    color: #cccccc;
+    background: #181818;
+    border-radius: 12px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), inset 0 -1px 2px rgba(255, 255, 255, 0.5);
+    width: 120px;
+    padding-left: 10px;
+    font-size: 12px;
+    line-height: 1;
+    border-radius: 12px;
+    -webkit-appearance: none;
+    height: 20px;
+    border: 0px;
+}
+
+
+  .totalStakeHeader input::-webkit-outer-spin-button,
+.totalStakeHeader input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.statusBar{
+    width: 95%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    padding:  10px;
+    font-size: 11px;
+}
+
+.statusBar span:first-child{
+    color: #cccccc;
+}
+
+.statusBar span:nth-child(2){
+    color: #EE0000;
+}
+
+.statusBar span:nth-child(3){
+    color: #eeee00;
+}
+
+.factorBigBox{
+    width: 100%;
+    min-height: 80%;
+    padding: 10px;
+    color: #cccccc;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.factorBox{
+    width: 100%;
+    display: flex;
+}
+
+.factorBoxFirst{
+    width: 50%;
+    display: flex;
+    gap: 30px;
+}
+
+.factorBoxFirst input::-webkit-outer-spin-button,
+.factorBoxFirst input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.factorBoxFirst input{
+    color: #cccccc;
+    background: #181818;
+    border-radius: 12px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5), inset 0 -1px 2px rgba(255, 255, 255, 0.5);
+    width: 40%;
+    padding-left: 10px;
+    font-size: 12px;
+    line-height: 1;
+    border-radius: 12px;
+    -webkit-appearance: none;
+    height: 20px;
+    border: 0px;
+}
+
+.round{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.roundGreen{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.roundRed{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #EE0000;
+}
+
+.roundGold{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #eeee00;
+}
+
+.calcBox{
+    width: 100%;
+    height: 4.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calcButton{
+    width: 10%;
+    padding: 3px 40px 3px 40px;
+    font-size: 12px;
+    color: #ccc;
+    font-family: Arial;
+    font-weight: normal;
+    line-height: 15px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3) inset, 1px 1px 1px #000;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
